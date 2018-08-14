@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 22, 2017, 9:04:50 PM
+    Author     : Aminur Rashid
+*/
+
+body { padding-top: 70px;}
+/*navbar style*/
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*header styles*/
+#headerwarpper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(../images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-attachment: fixed;
+}
+#logotext{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 180px;
+    top: 50%;
+    opacity: 0.2;
+    filter: alpha(opacity=70);
+    
+}
+#fore-flower{
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    background-image: url(../images/);
+    background-size: auto 480px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    top: 525px;
+    right: -50px;
+}
+#back-flower{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    top: 400px;
+    left: -25px;
+}
+
+/*Partial header styles*/
+#partial-headerwarpper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 210px;
+    background-image: url(../images/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-attachment: fixed;
+}
+#partial-logotext{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 180px;
+    top: 50%;
+    opacity: 0.2;
+    filter: alpha(opacity=70);
+    
+}
+#partial-fore-flower{
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    background-image: url(../images/);
+    background-size: auto 480px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    top: 100px;
+    right: -50px;
+}
+#partial-back-flower{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    top: 80px;
+    left: -25px;
+}
+
+/*product style*/
+.single{
+    width: 183px;
+    height: 275px;
+}
+.btn-sally{
+    margin: auto;
+    display: block;
+}
+p{
+    text-align: center;
+}
+@media (max-width:768px){
+    .single{
+            width:60%;
+            margin: 0 auto;
+    }
+    p{
+        text-align: center;
+    }
+    .btn-sally{
+        margin: auto;
+        display: block;
+    }
+}
+
+
+/*modal image styles*/
+fotorama__wrap{
+    width: 80%;
+    margin: 15px auto;
+}
+
+/* shppoing cart table styles*/
+.totals-table-header th{
+    text-align: center;
+}
+
+/*cart widget styles*/
+#cart_widget td, #recent_widget{
+    font-size: 12px;
+}
+
+/*leftside widget styles*/
+input.price-range{
+    width: 55px;
+}
+
+/*footer style*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; margin-top: 30px;}
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p {text-align: left; color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social-ul{list-style-type: none; padding-left: 0; margin-left: 10px;}
+.social-ul li{line-height: 40px; font-size: 30px;}
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:18px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p {text-align: left; font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
